@@ -1,0 +1,32 @@
+
+.client-data ul{
+    margin: 50px 0 0;
+    border-left: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid #757575;
+    /* border-bottom: 1px solid #757575; */
+}
+.client-data li{
+    height: 77px;
+    border-bottom: 1px solid #757575;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.client-data li span{
+    font-size: 12px;
+    color: #fff;
+}
+.client-data li img{
+    width: 115px;
+    height: 38px;
+    object-fit: contain;
+}
+.client-data li img[src=""],
+.client-data li img:not([src]){
+    display: none;
+}

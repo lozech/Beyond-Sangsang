@@ -1,0 +1,33 @@
+.workspage{
+    width: 100%;
+    padding: 150px 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+}
+.workspage .works-tit{
+    text-align: center;
+    font-size: 64px;
+    line-height: 80px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+.workspage .works-list{
+    width: 100%;
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.workspage .work-wrap{
+    color: #fff;
+}
+.workspage .work-wrap .work-card .img-box::after{
+    background-color: #fff;
+}
+.workspage .work-wrap .work-card .video-tit{
+    color: #fff;
+}

@@ -1,0 +1,213 @@
+.contact-page{
+    width: 100%;
+    padding: 170px 0 128px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flow-root;
+    position: relative;
+}
+.contact-page .contact-tit{
+    padding: 0 156px 48px;
+    box-sizing: border-box;
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 600;
+}
+.contact-page .contact-form{
+    width: 100%;
+    border-top: 1px solid #757575;
+}
+.contact-page .contact-form .inner .contact-cont{
+    width: 100%;
+    line-height: 80px;
+    border-bottom: 1px solid #757575;
+    padding: 17px 214px 23px 189px;
+    box-sizing: border-box;
+    position: relative;
+}
+.contact-page .contact-form .inner .text-input input,
+.contact-page .contact-form .inner .text-input textarea{
+    width: 100%;
+    display: block;
+    font-size: 64px;
+    border: 0;
+    position: relative;
+}
+.contact-page .contact-form .inner .contact-cont input::placeholder,
+.contact-page .contact-form .inner .contact-cont textarea::placeholder{
+    color: #bfbfbf;
+}
+.contact-page .contact-form .inner .contact-cont textarea{
+    width: 100%;
+    font-family: inherit;
+    height: 263px;
+    resize: none;
+}
+.contact-page .contact-form .inner .company::before{
+    content: "(1)";
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    transform: translateX(-8%);
+    margin-left: 10px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-page .contact-form .inner .name::before{
+    content: "(2)";
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    transform: translateX(-8%);
+    margin-left: 10px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-page .contact-form .inner .phone::before{
+    content: "(3)";
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    transform: translateX(-8%);
+    margin-left: 10px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-page .contact-form .inner .email::before{
+    content: "(4)";
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    transform: translateX(-8%);
+    margin-left: 10px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-page .contact-form .inner .message::before{
+    content: "(5)";
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    transform: translateX(-8%);
+    margin-left: 10px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-page .contact-form .inner .send-btn::before{
+    content: "(6)";
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    transform: translateX(-8%);
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contact-page .contact-form .inner .company::after{
+    content: "(회사명)";
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    margin-left: 10px;
+    color: #bfbfbf;
+    font-size: 20px;
+    line-height: 28px;
+}
+.contact-page .contact-form .inner .name::after{
+    content: "(담당자 성명)";
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    margin-left: 10px;
+    color: #bfbfbf;
+    font-size: 20px;
+    line-height: 28px;
+}
+.contact-page .contact-form .inner .phone::after{
+    content: "(보내는분 연락처)";
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    margin-left: 10px;
+    color: #bfbfbf;
+    font-size: 20px;
+    line-height: 28px;
+}
+.contact-page .contact-form .inner .email::after{
+    content: "(보내는분 이메일)";
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    margin-left: 10px;
+    color: #bfbfbf;
+    font-size: 20px;
+    line-height: 28px;
+}
+.contact-page .contact-form .inner .message::after{
+    content: "(남기실 메시지)";
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translateX(-25%);
+    margin-left: 10px;
+    color: #bfbfbf;
+    font-size: 20px;
+    line-height: 28px;
+}
+.contact-page .contact-form .file .real-file{
+    display: none;
+}
+.contact-page .contact-form .file .file-ui{
+    line-height: 0px;
+    height: 80px;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: -35px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.contact-page .contact-form .file .file-preview{
+    line-height: 0px;
+    margin-top: 5px;
+    background: #f3f3f3;
+    padding: 14px 20px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -35px;
+}
+
+.contact-page .contact-form .file .file-preview button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-page .contact-form .send-btn{
+    background-color: #000;
+    color: #fff;
+    font-size: 64px;
+    line-height: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.contact-page .contact-form .send-btn:hover{
+    background-color: #ff6d2d;
+}
+
+.contact-cont.filled::after {
+    display: none;
+}

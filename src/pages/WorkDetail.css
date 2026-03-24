@@ -1,0 +1,77 @@
+.work-detail{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.work-detail .work-video{
+    width: 100%; 
+    height: 100%;
+    padding: 80px 0 0;
+    background-color: #000;
+}
+.work-detail .work-video .video-box{
+    width: 100%;
+    max-width: 1440px;
+    height: 810px;
+    margin: 0 auto;
+    position: relative;
+}
+.work-detail .work-video .video-box iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+}
+
+.work-detail.no-video .work-video .video-box{
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-detail.no-video .work-video .video-box .no-video-txt{
+    text-align: center;
+    color: #fff;
+}
+.work-detail.no-video .work-video .video-box .no-video-txt .no-video-text{
+    font-size: 48px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.work-detail.no-video .work-video .video-box .no-video-txt .no-video-text2{
+    font-size: 24px;
+}
+
+.work-detail .video-photos{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+.work-detail .video-photos li img{
+    width: 476px;
+    height: 242px;
+    object-fit: cover;
+}
+
+.work-detail .workBtn{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 70px;
+    margin: 100px auto 100px;
+    transition: all 0.5s;
+    display: block;
+}
+.work-detail .workBtn p{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+}
+.work-detail .workBtn:hover{
+    border: 1px solid transparent;
+    background-color: #ff6d2d;
+}

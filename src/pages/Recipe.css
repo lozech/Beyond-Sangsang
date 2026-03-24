@@ -1,0 +1,162 @@
+.recipe-page{
+    width: 100%;
+    padding: 200px 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+.recipe-page .desc-wrap{
+    width: 100%;
+    padding: 0 120px 0;
+    box-sizing: border-box;
+}
+.recipe-page .desc-wrap h1{
+    font-size: 72px;
+    font-weight: 600;
+}
+.recipe-page .desc-wrap .recipe-desc{
+    display: flex;
+    margin-top: 50px;
+}
+.recipe-page .desc-wrap .recipe-desc .first-desc{
+    margin-right: 700px;
+}
+.recipe-page .desc-wrap .recipe-desc .first-desc p{
+    font-size: 24px;
+    line-height: 40px;
+}
+.recipe-page .desc-wrap .recipe-desc .second-desc{
+    line-height: 25px;
+}
+.recipe-page .desc-wrap .recipe-desc .second-desc .orange-txt{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff6d2d;
+}
+.recipe-page .desc-wrap .recipe-desc .second-desc .acodian-menu{
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.recipe-page .accodian-wrap{
+    width: 100%;
+    padding: 100px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.recipe-page .accodian-wrap .accod{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 40px; 
+    /* height: 80px; */
+    transition: max-height 0.8s ease;
+    position: relative;
+    left: 0;
+    background-color: #fff;
+    cursor: pointer;
+    display: block;
+}
+.recipe-page .accodian-wrap .accod .accod-head{
+    padding: 0 120px 0;
+    box-sizing: border-box;
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.recipe-page .accodian-wrap .accod .accod-head .numbering{
+    font-size: 72px;
+    line-height: 92px;
+    font-weight: 600;
+} 
+.recipe-page .accodian-wrap .accod  .accod-head .tit{
+    font-size: 22px;
+    font-weight: 400;
+}
+.recipe-page .accodian-wrap .accod .accod1-first{
+    width: 100%;
+    margin: 20px 120px;
+    display: flex;
+    gap: 170px;
+    line-height: 50px;
+}
+.recipe-page .accodian-wrap .accod .accod1-first .img1-1{
+    width: 390px;
+    height: 211px;
+    object-fit: contain;
+}
+.recipe-page .accodian-wrap .accod .jd-wrap .jd2{
+    margin-top: 40px;
+}
+.recipe-page .accodian-wrap .accod .img1-2{
+    margin-left: 750px;
+    object-fit: contain;
+    width: 950px;
+    height: 534px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.recipe-page .accodian-wrap .accod .jd-wrap .bold-tit{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.recipe-page .accodian-wrap .accod .jd-wrap .jd-txt{
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.recipe-page .accodian-wrap .accod .accod2-first{
+    width: 100%;
+    margin: 40px 0px;
+    display: flex;
+    flex: 1;
+}
+.recipe-page .accodian-wrap .accod .accod2-first .jd-wrap{
+    margin-left: 120px;
+}
+.recipe-page .accodian-wrap .accod .accod2-first .img2-1{
+    width: 305px;
+    height: 415px;
+    object-fit: contain;
+    margin-left: 800px;
+}
+.recipe-page .accodian-wrap .img2-2{
+    width: 836px;
+    height: 470px;
+    object-fit: contain;
+    margin-left: 200px;
+    margin-bottom: 70px;
+}
+.recipe-page .accodian-wrap .accod .accod3-first{
+    display: flex;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+.recipe-page .accodian-wrap .accod .accod3-first .jd-wrap{
+    margin-left: 300px;
+}
+.recipe-page .accodian-wrap .accod .img3-1{
+    object-fit: contain;
+    width: 696px;
+    height: 696px;
+    margin-left: 350px;
+}
+.recipe-page .accodian-wrap .accod .img3-2{
+    object-fit: contain;
+    width: 419px;
+    height: 235px;
+    margin-left: 80px;
+}
+
+.accod.active {
+    height: 5000px;
+}
+
+
+

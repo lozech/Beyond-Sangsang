@@ -1,0 +1,19 @@
+.crew-wrap{
+    width: 100%;
+    /* background-color: red; */
+}
+.crew-wrap h1{
+    text-align: center;
+    font-size: 64px;
+    line-height: 80px;
+    padding: 200px 0 75px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+.crew-wrap .card-wrap{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 150px;
+    gap: 0;
+    border-top: 1px solid #757575;
+}
