@@ -23,7 +23,7 @@ function Footer({ variant }){
                     <p>031-546-0317</p>
                 </div>
                 <div className="address">
-                    <p>ADRESS</p>
+                    <p>ADDRESS</p>
                     <p>4, Changnyong-daero 41beon-gil, Paldal-gu,</p>
                     <p>Suwon-si, Gyeonggi-do, Republic of Korea</p>
                 </div>
