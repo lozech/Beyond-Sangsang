@@ -391,7 +391,7 @@ header .header-wrap nav{
     padding: 48px 40px 45px;
     box-sizing: border-box;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 15px;
 }
 .footer .footer-wrap .flogo{
     width: 122px;
@@ -399,10 +399,10 @@ header .header-wrap nav{
     object-fit: contain;
 }
 footer .footer-wrap .phone{
-    line-height: 20px;
+    line-height: 27px;
 }
 footer .footer-wrap .address{
-    line-height: 20px;
+    line-height: 27px;
 }
 footer .footer-wrap .address p:nth-child(1){
     margin-bottom: 0px;
@@ -427,7 +427,7 @@ footer .footer-wrap .address p:nth-child(3){
     bottom: 0%;
     left: 0;
     width: 100%;
-    height: 44px;
+    height: 50px;
     z-index: 9999;
     transition: all 0.3s;
 }
@@ -439,12 +439,12 @@ footer .footer-wrap .address p:nth-child(3){
     align-items: center;
     padding: 10px 40px;
     box-sizing: border-box;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
     font-weight: 400;
 }
 .bottomBar .bar-wrap .copyRight{
-    font-size: 11px;
+    font-size: 14px;
 }
 .bottomBar .bar-wrap .sns{
     display: flex;
